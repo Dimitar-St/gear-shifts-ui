@@ -1,10 +1,7 @@
-<script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true,
-  },
-})
+<script setup lang="ts">
+defineProps<{
+  msg: string
+}>()
 </script>
 
 <template>
@@ -13,7 +10,10 @@ defineProps({
     <h3>
       You’ve successfully created a project with
       <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a> +
+      <a href="https://developers.cloudflare.com/workers/" target="_blank" rel="noopener"
+        >Cloudflare Workers</a
+      >. What's next?
     </h3>
   </div>
 </template>
