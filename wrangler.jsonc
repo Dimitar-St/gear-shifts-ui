@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "gear-shift-ui",
+	"name": "gear-shifts-io",
 	"compatibility_date": "2025-12-16",
 	"main": "server/index.ts",
 	"assets": {
