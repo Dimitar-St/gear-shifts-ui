@@ -4,6 +4,6 @@ import TheWelcome from '../components/TheWelcome.vue'
 
 <template>
   <main>
-    <TheWelcome />
+	<img src="@/assets/GearShiftsLogo.png" width="1000" height="1000">
   </main>
 </template>
