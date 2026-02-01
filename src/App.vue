@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import HomeView from './views/HomeView.vue'
+import Nav from './components/nav/Nav.vue'
 import { ref } from 'vue'
 
 const name = ref('Unknown')
@@ -13,6 +15,7 @@ const getName = async () => {
 </script>
 
 <template>
+  <Nav />
   <RouterView />
 </template>
 
